@@ -200,3 +200,21 @@ pre.md-meta-block.md-end-block.md-focus {
 span.md-plain {
   font-family: var(--main-font-family);
 }
+
+/* 数学公式字体 */
+script {
+  font-family: var(--main-font-family);
+}
+
+/* 侧栏鼠标悬浮样式 */
+.outline-label:hover {
+  color: var(--main-blue);
+}
+
+.info-panel-tab-title:hover {
+  color: var(--main-blue);
+}
+
+.md-image>.md-meta {
+  font-family: var(--main-font-family);
+}

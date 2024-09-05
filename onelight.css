@@ -494,18 +494,11 @@ mark {
   list-style-type: disclosure-closed;
 }
 
-.typora-node.pin-outline #md-searchpanel,
-.typora-node.pin-outline .md-notification-container {
-  box-shadow: 6px 6px 10px 2px rgb(173 173 173);
-}
 
 .ion-close-round:before {
   color: #ff6b6b;
 }
 
-#md-searchpanel input {
-  box-shadow: inset 3px 7px 4px 2px rgb(173 173 173);
-}
 
 
 #md-searchpanel .btn label {
@@ -524,12 +517,12 @@ mark {
   color: var(--main-red);
 }
 
-/* 下角标 */
+/* 搜索结果 */
 .cm-search-hit.CodeMirror-selectedtext,
 .md-search-hit.md-search-select,
 .md-search-select {
-  color: var(--main-green);
-  text-shadow: none;
+  color: #ff0000;
+  background: yellow;
 }
 
 /* 搜索结果 */
