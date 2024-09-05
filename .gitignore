@@ -1,0 +1,10 @@
+# 忽略所有文件
+*
+
+# 例外保留 onelight.css 文件
+!onelight.css
+!onelight.user.css
+!.gitignore
+
+# 忽略所有文件夹
+*/
