@@ -1,0 +1,202 @@
+:root {
+  --select-text-bg-color: #3b3e4d;
+  --main-blue: #166ff3;
+  --main-red: #ff6b6b;
+  --main-green: #2ed573;
+  --main-font-family: "Cascadia Code", "喵字果汁体", "微软雅黑", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --code--bg-color: #292b35;
+  --code--bg-color-light: #3d404e;
+}
+
+body {
+  font-family: var(--main-font-family);
+}
+
+/* 一级标题 */
+#write h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: var(--main-font-family);
+}
+
+/** 有序、无序列表，来自Butterfly主题 **/
+
+#write ul li,
+#write ol li,
+#write .ul .li,
+#write .ol .li {
+  list-style-type: none;
+}
+
+#write ul>li:not(.tab):before,
+#write .ul>.li:not(.tab):before {
+  margin-left: -22px;
+  margin-top: 15px;
+  width: 0.62em;
+  height: 0.62em;
+  border: 0.1em solid var(--main-blue);
+  border-radius: 0.31em;
+  /* background: 0 0; */
+  content: "";
+  line-height: 0.42em;
+}
+
+#write ol li:before,
+#write ul li:before,
+#write .ol .li:before,
+#write .ul .li:before {
+  position: absolute;
+  background: var(--main-blue);
+  color: var(--olfore-color);
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#write ol li:first-child,
+#write .ol .li:first-child {
+  /* https://www.w3school.com.cn/cssref/pr_gen_counter-increment.asp */
+  counter-reset: li;
+}
+
+#write ol li:hover:before,
+#write ul li:hover:before,
+#write .ol .li:hover:before,
+#write .ul .li:hover:before {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+#write ul>li:not(.tab):hover:before,
+#write .ul>.li:not(.tab):hover:before {
+  border-color: var(--focus-color);
+}
+
+#write ol>li:before,
+#write .ol>.li:before {
+  color: #ffffff;
+  margin-top: 12px;
+  margin-left: -25px;
+  width: 1.65em;
+  height: 1.65em;
+  border-radius: 0.825em;
+  content: counter(li);
+  counter-increment: li;
+  text-align: center;
+  font-size: 0.65em;
+  line-height: 1.7em;
+}
+
+/* 列表子项上下间隔调整 */
+#write ul li input,
+#write ol li input,
+#write .ul .li input,
+#write .ol .li input {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* 列表上下间隔调整 */
+#write ul li,
+#write ol li,
+#write .ul .li,
+#write .ol .li {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+/* 表格悬浮高亮 */
+table tr:hover {
+  background-color: #65666841;
+}
+
+/* 选中行高亮 */
+.md-fences:not(.md-focus) .CodeMirror-code>*:hover {
+  background-color: var(--code--bg-color-light);
+}
+
+/* 小标签 */
+font {
+  display: inline;
+  padding: 0.2em 0.6em;
+  font-size: 90%;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  /*white-space: nowrap;*/
+  vertical-align: baseline;
+  border-radius: 0.1rem;
+  border-radius: 6px;
+  background-color: var(--main-blue);
+}
+
+font[title="red"] {
+  background-color: #e91e64;
+}
+
+font[title="blue"] {
+  background-color: #02aaf4;
+}
+
+font[title="yellow"] {
+  background-color: #ffc50a;
+}
+
+font[title="green"] {
+  background-color: #8bc34a;
+}
+
+font[title="gray"] {
+  background-color: #4c4c4c;
+}
+
+
+
+hr {
+  width: 90%;
+  margin: 10px;
+  height: 2px;
+  background-color: transparent;
+  /* 清除背景颜色 */
+  border-top: 2px dashed var(--main-blue);
+  /* 设置虚线边框 */
+}
+
+/* 键盘按键样式 */
+kbd {
+  font-family: 'cascadia code';
+  font-weight: bold;
+}
+
+/* 目录[Toc]样式 */
+p.md-toc-content {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+
+/* 顶部引用样式 */
+pre.md-meta-block.md-end-block.md-focus {
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+}
+
+#write>pre.md-meta-block.md-end-block {
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+}
+
+
+/* 普通文本字体 */
+span.md-plain {
+  font-family: var(--main-font-family);
+}
