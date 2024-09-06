@@ -218,3 +218,16 @@ script {
 .md-image>.md-meta {
   font-family: var(--main-font-family);
 }
+
+
+/* 无序列表悬浮样式 */
+#write ul>li:not(.tab):hover:before,
+#write .ul>.li:not(.tab):hover:before {
+  background-color: var(--main-red);
+}
+
+
+/* 错误通知样式 */
+.md-notification-content {
+    background: #ff00001a;
+}
