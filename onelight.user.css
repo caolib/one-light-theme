@@ -16,7 +16,6 @@ body {
 #write h1 {
   font-size: 50px;
   text-align: center;
-  font-family: var(--main-font-family);
 }
 
 /** 有序、无序列表，来自Butterfly主题 **/
@@ -36,7 +35,6 @@ body {
   height: 0.62em;
   border: 0.1em solid var(--main-blue);
   border-radius: 0.31em;
-  /* background: 0 0; */
   content: "";
   line-height: 0.42em;
 }
@@ -196,16 +194,6 @@ pre.md-meta-block.md-end-block.md-focus {
 }
 
 
-/* 普通文本字体 */
-span.md-plain {
-  font-family: var(--main-font-family);
-}
-
-/* 数学公式字体 */
-script {
-  font-family: var(--main-font-family);
-}
-
 /* 侧栏鼠标悬浮样式 */
 .outline-label:hover {
   color: var(--main-blue);
@@ -215,9 +203,6 @@ script {
   color: var(--main-blue);
 }
 
-.md-image>.md-meta {
-  font-family: var(--main-font-family);
-}
 
 
 /* 无序列表悬浮样式 */
@@ -231,3 +216,28 @@ script {
 .md-notification-content {
     background: #ff00001a;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
