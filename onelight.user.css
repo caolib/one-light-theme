@@ -3,6 +3,7 @@
   --main-blue: #166ff3;
   --main-red: #ff6b6b;
   --main-green: #2ed573;
+  --main-purple: #877eff;
   --main-font-family: "Cascadia Code", "喵字果汁体", "微软雅黑", "PingFang SC", "Microsoft YaHei", sans-serif;
   --code--bg-color: #292b35;
   --code--bg-color-light: #3d404e;
@@ -224,6 +225,14 @@ pre.md-meta-block.md-end-block.md-focus {
 }
 
 
+/* 文件列表悬浮样式 */
+.file-node-content:hover {
+    color: var(--main-blue);
+}
+
+.file-library-node.file-tree-node.file-library-file-node.active {
+    background: #ffc4c429;
+}
 
 
 
@@ -243,3 +252,87 @@ pre.md-meta-block.md-end-block.md-focus {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------源代码阅读模式 样式 ---------------------- */
+/* 字体 */
+#typora-source .CodeMirror-lines {
+    font-family: var(--main-font-family);
+}
+
+.CodeMirror-wrap .CodeMirror-code pre {
+    font-family: var(--main-font-family);
+}
+
+/* 行代码 */
+.cm-s-typora-default .cm-code, .cm-s-typora-default .cm-comment {
+    color: green;
+    font-family: var(--main-font-family);
+}
+
+/* 代码标签 */
+.cm-s-inner .cm-tag {
+    color: var(--main-blue);
+}
+
+.cm-s-typora-default .cm-overlay {
+  font-family: var(--main-font-family);
+}
+
+/* 行 */
+.cm-s-typora-default .CodeMirror-activeline-background {
+    left: -60px;
+    right: -30px;
+    background: rgb(152 152 152 / 20%);
+}
+
+/* 默认文本 */
+.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
+    color: var(--main-blue);
+}
+
+/* 行号 */
+#typora-source .CodeMirror-activeline .CodeMirror-linenumber, #typora-source .CodeMirror-linenumber.CodeMirror-linenumber-show {
+  font-family: var(--main-font-family);
+  color: var(--main-blue);
+}
