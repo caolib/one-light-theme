@@ -217,9 +217,11 @@ pre.md-meta-block.md-end-block.md-focus {
     background: #ff00001a;
 }
 
-
-
-
+/* 待办事项-完成 */
+.md-task-list-item.task-list-done span {
+    color: #999;
+    text-decoration: line-through;
+}
 
 
 
