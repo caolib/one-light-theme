@@ -207,7 +207,7 @@ pre.md-meta-block.md-end-block.md-focus {
 
 /* 侧栏搜索样式 */
 .ty-show-search #info-panel-tab-search .info-panel-tab-border {
-    background-color: var(--main-blue);
+  background-color: var(--main-blue);
 }
 
 
@@ -220,81 +220,34 @@ pre.md-meta-block.md-end-block.md-focus {
 
 /* 错误通知样式 */
 .md-notification-content {
-    background: #ff00001a;
+  background: #ff00001a;
 }
 
 /* 待办事项-完成 */
 .md-task-list-item.task-list-done span {
-    color: #999;
-    text-decoration: line-through;
+  color: #999;
+  text-decoration: line-through;
 }
 
 
 /* 文件列表悬浮样式 */
 .file-node-content:hover {
-    color: var(--main-blue);
+  color: var(--main-blue);
 }
 
+/* 文件列表选中样式 */
 .file-library-node.file-tree-node.file-library-file-node.active {
-    background: #ffc4c429;
+  background: #ffc4c429;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 代码文本等 */
+code,
+pre,
+samp,
+tt {
+  font-family: var(--main-font-family);
+}
 
 
 
@@ -302,22 +255,26 @@ pre.md-meta-block.md-end-block.md-focus {
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
 /* 字体 */
 #typora-source .CodeMirror-lines {
-    font-family: var(--main-font-family);
+  font-family: var(--main-font-family);
+  max-width: 90%;
+  background: white;
+  border-radius: 10px;
 }
 
 .CodeMirror-wrap .CodeMirror-code pre {
-    font-family: var(--main-font-family);
+  font-family: var(--main-font-family);
 }
 
 /* 行代码 */
-.cm-s-typora-default .cm-code, .cm-s-typora-default .cm-comment {
-    color: green;
-    font-family: var(--main-font-family);
+.cm-s-typora-default .cm-code,
+.cm-s-typora-default .cm-comment {
+  color: green;
+  font-family: var(--main-font-family);
 }
 
 /* 代码标签 */
 .cm-s-inner .cm-tag {
-    color: var(--main-blue);
+  color: var(--main-blue);
 }
 
 .cm-s-typora-default .cm-overlay {
@@ -326,18 +283,20 @@ pre.md-meta-block.md-end-block.md-focus {
 
 /* 行 */
 .cm-s-typora-default .CodeMirror-activeline-background {
-    left: -60px;
-    right: -30px;
-    background: rgb(152 152 152 / 20%);
+  left: -60px;
+  right: -30px;
+  background: rgb(152 152 152 / 20%);
 }
 
 /* 默认文本 */
-.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
-    color: var(--main-blue);
+.cm-s-typora-default .cm-atom,
+.cm-s-typora-default .cm-number {
+  color: var(--main-blue);
 }
 
 /* 行号 */
-#typora-source .CodeMirror-activeline .CodeMirror-linenumber, #typora-source .CodeMirror-linenumber.CodeMirror-linenumber-show {
+#typora-source .CodeMirror-activeline .CodeMirror-linenumber,
+#typora-source .CodeMirror-linenumber.CodeMirror-linenumber-show {
   font-family: var(--main-font-family);
   color: var(--main-blue);
 }
