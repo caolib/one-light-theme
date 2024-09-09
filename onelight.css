@@ -27,7 +27,7 @@
   --monospace: monospace;
 }
 
-body{
+body {
   font-family: var(--main-font-family);
 }
 
@@ -363,7 +363,7 @@ code,
 }
 
 .cm-s-inner .cm-string {
-  color:#00ad47;
+  color: #00ad47;
 }
 
 .cm-s-inner .cm-string-2 {
@@ -429,7 +429,7 @@ mark {
   --main-green: #2ed573;
 }
 
-#write pre{
+#write pre {
   font-family: var(--main-font-family);
 }
 
@@ -442,7 +442,7 @@ mark {
 /* 选中文本 */
 .CodeMirror-selected,
 .CodeMirror-selectedtext {
-  background: #ff6b6b70;
+  background: #fe4e4e33 !important;
   text-shadow: none;
 }
 
@@ -530,4 +530,3 @@ span#filesearch-case-option-btn:active {
   contain: style;
   transform: translate3d(0, 0, 0);
 }
-

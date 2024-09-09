@@ -250,6 +250,12 @@ tt {
 }
 
 
+/* 数学公式源码字体 */
+.md-rawblock-after,
+.md-rawblock-before {
+  font-family: var(--main-font-family);
+}
+
 
 
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
@@ -299,4 +305,17 @@ tt {
 #typora-source .CodeMirror-linenumber.CodeMirror-linenumber-show {
   font-family: var(--main-font-family);
   color: var(--main-blue);
+}
+
+
+/* md内html标签 */
+.md-html-inline .md-meta,
+.md-ruby .md-meta {
+  font-family: var(--main-font-family);
+}
+
+
+/* 鼠标悬浮表格行高亮 */
+#write table tr:hover {
+  background: #42a5f521;
 }
