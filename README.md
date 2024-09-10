@@ -1,4 +1,4 @@
-# [OneLight Theme For Typora](https://github.com/caolib/theme.typora.io)
+# [OneLight Theme For Typora](https://github.com/caolib/typora-onelight-theme/tree/onelight)
 ![image](https://github.com/user-attachments/assets/d56a5c27-7b81-45f9-84cb-8b91df92eba9)
 
 > [!note]
