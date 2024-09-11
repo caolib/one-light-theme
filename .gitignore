@@ -6,6 +6,7 @@
 !onelight.user.css
 !.gitignore
 !git-ops.py
+!background.png
 
 # 忽略所有文件夹
 */
