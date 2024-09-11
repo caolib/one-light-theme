@@ -257,6 +257,14 @@ tt {
 }
 
 
+div#typora-sidebar {
+  background-image: url('./background.png');
+  /* 适应窗口大小 */
+  background-size: 50%;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
 
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
 /* 字体 */

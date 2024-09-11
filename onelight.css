@@ -5,11 +5,12 @@
   --main-red: #ff6b6b;
   --main-green: #2ed573;
   --select-text-bg-color: #e49123;
-  --bg-color: #e3e3e3;
   /* 背景色 */
+  --bg-color: #e3e3e3;
+
+  /* 字体 */
   --main-font-family: "Cascadia Code", "喵字果汁体", "微软雅黑", "PingFang SC", "Microsoft YaHei",
     sans-serif;
-  /* 字体 */
 
   --text-color: #333333;
   --md-char-color: #c7c5c5;
