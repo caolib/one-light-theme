@@ -258,6 +258,7 @@ tt {
 
 
 
+/*
 #outline-content,
 div#file-library {
   background-image: url('./background.png');
@@ -265,10 +266,9 @@ div#file-library {
   background-position: left bottom;
   background-repeat: no-repeat;
   background-color: rgba(227, 227, 227, 0.3);
-  /* 半透明白色背景 */
   background-blend-mode: lighten;
-  /* 混合模式 */
 }
+*/
 
 
 
