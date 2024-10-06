@@ -3,9 +3,10 @@
   --main-blue: #166ff3;
   --main-red: #ff6b6b;
   --main-green: #2ed573;
-  --main-purple: #877eff;
+  --main-purple: #c94ae9;
+  --main-yellow: #f9b03d;
   --main-font-family: "Cascadia Code", "喵字果汁体", "微软雅黑", "PingFang SC", "Microsoft YaHei", sans-serif;
-  --code--bg-color: #292b35;
+  --code--bg-color: #282c34;
   --code--bg-color-light: #3d404e;
 }
 
@@ -257,21 +258,29 @@ tt {
 }
 
 
-
-/*
-#outline-content,
-div#file-library {
-  background-image: url('./background.png');
-  background-size: 50%;
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  background-color: rgba(227, 227, 227, 0.3);
-  background-blend-mode: lighten;
+/* 文件夹 */
+.fa-folder:before {
+  color: var(--main-yellow);
 }
-*/
+
+/* 图片路径 */
+.md-image-btn:before {
+  font-family: var(--main-font-family);
+  color: var(--main-yellow);
+}
 
 
+/* 图片路径按钮 */
+.md-image-btn {
+  background: white;
+}
 
+
+/* 添加表格对话框 */
+.modal-content {
+  background: white;
+  border-radius: 10px;
+}
 
 
 
