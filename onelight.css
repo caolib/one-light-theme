@@ -4,10 +4,12 @@
   --main-blue: #166ff3;
   --main-red: #ff6b6b;
   --main-green: #2ed573;
-  --select-text-bg-color: #e49123;
+  --main-purple: #c94ae9;
+  --main-yellow: #f9b03d;
+  --select-text-bg-color: #3b3e4d;
   /* 背景色 */
   --bg-color: #e3e3e3;
-
+  --code-bg-color: #282c34;
   /* 字体 */
   --main-font-family: "Cascadia Code", "喵字果汁体", "微软雅黑", "PingFang SC", "Microsoft YaHei",
     sans-serif;
@@ -278,7 +280,7 @@ body {
 
 #write table tr th {
   font-weight: bold;
-  color: #0489d7;
+  color: var(--main-blue);
   background-color: #42a5f53d;
 }
 
@@ -308,7 +310,7 @@ code,
 
 .md-fences {
   margin: 0 0 20px;
-  background-color: #292b35;
+  background-color: var(--code-bg-color);
   color: rgb(236, 236, 236);
   /* font-size: 1em; */
   padding: 0.3em 1em;
@@ -316,8 +318,8 @@ code,
   box-shadow: 0px 4px 9px grey;
 }
 
+/* 光标*/
 .CodeMirror div.CodeMirror-cursor {
-  margin-left: 4.6px;
   border-left: 1px solid #26ed91;
   z-index: 5;
 }
@@ -326,12 +328,9 @@ code,
   background: rgba(113, 124, 180, 0.2);
 }
 
-.CodeMirror-code {
-  margin-left: 5px;
-}
 
 .cm-s-inner .cm-keyword {
-  color: #ac37f9;
+  color: var(--main-purple);
 }
 
 .cm-s-inner .cm-operator {
@@ -423,13 +422,6 @@ mark {
   color: #ff6b6b;
 }
 
-:root {
-  --select-text-bg-color: #3b3e4d;
-  --main-blue: #166ff3;
-  --main-red: #ff6b6b;
-  --main-green: #2ed573;
-}
-
 #write pre {
   font-family: var(--main-font-family);
 }
@@ -506,10 +498,6 @@ span#filesearch-case-option-btn:active {
   color: #166ff3;
 }
 
-/* 文件夹 */
-.fa-folder:before {
-  color: #f9b03d;
-}
 
 /* 上角标 */
 #write .md-footnote {
