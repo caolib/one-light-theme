@@ -1,3 +1,17 @@
+@font-face {
+  font-family: '喵字果汁体';
+  src: url('https://cdn.jsdelivr.net/gh/caolib/cdn@main/MiaoZi-GuoZhiTi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('https://cdn.jsdelivr.net/gh/caolib/cdn@main/CascadiaCode.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* 全局属性 */
 :root {
   /* 主色调 */

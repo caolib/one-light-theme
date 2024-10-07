@@ -1,3 +1,17 @@
+@font-face {
+  font-family: '喵字果汁体';
+  src: url('https://cdn.jsdelivr.net/gh/caolib/cdn@main/MiaoZi-GuoZhiTi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('https://cdn.jsdelivr.net/gh/caolib/cdn@main/CascadiaCode.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --select-text-bg-color: #3b3e4d;
   --main-blue: #166ff3;
@@ -5,7 +19,7 @@
   --main-green: #2ed573;
   --main-purple: #c94ae9;
   --main-yellow: #f9b03d;
-  --main-font-family: "Cascadia Code", "喵字果汁体", "微软雅黑", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --main-font-family: "Cascadia Code", "喵字果汁体", consolas, "微软雅黑", "PingFang SC", "Microsoft YaHei", sans-serif;
   --code--bg-color: #282c34;
   --code--bg-color-light: #3d404e;
 }
