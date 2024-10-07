@@ -290,12 +290,17 @@ tt {
 }
 
 
-/* 添加表格对话框 */
+/* 表格对话框 */
 .modal-content {
   background: white;
   border-radius: 10px;
 }
 
+/* 视频 */
+video {
+  border-radius: 10px;
+  box-shadow: 11px 10px 12px rgba(0, 0, 0, 0.5);
+}
 
 
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
