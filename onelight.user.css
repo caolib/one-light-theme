@@ -302,6 +302,21 @@ video {
   box-shadow: 11px 10px 12px rgba(0, 0, 0, 0.5);
 }
 
+.md-alert {
+  box-shadow: 3px 8px 10px 2px rgb(173 173 173);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: white;
+}
+
+/* github风格警告框 */
+.md-alert.md-alert-warning {
+  border-left-color: #faad14;
+}
+
+.md-alert-text-warning {
+  color: #faad14;
+}
 
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
 /* 字体 */
