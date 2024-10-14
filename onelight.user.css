@@ -318,6 +318,11 @@ video {
   color: #faad14;
 }
 
+/* 标题###颜色 */
+.md-blockmeta {
+  color: #777;
+}
+
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
 /* 字体 */
 #typora-source .CodeMirror-lines {
