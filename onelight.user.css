@@ -362,7 +362,7 @@ video {
 
 /* 鼠标悬浮表格行高亮 */
 #write table tr:hover {
-  background: #42a5f521;
+  background: rgb(255 255 255 / 34%);
 }
 
 
