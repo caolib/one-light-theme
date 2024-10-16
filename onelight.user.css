@@ -323,6 +323,12 @@ video {
   color: #777;
 }
 
+figure.md-table-fig.table-figure {
+  box-shadow: 5px 6px 9px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
 /* 字体 */
 #typora-source .CodeMirror-lines {
