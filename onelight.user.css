@@ -323,9 +323,17 @@ video {
   color: #777;
 }
 
+/* 表格阴影和圆角 */
 figure.md-table-fig.table-figure {
   box-shadow: 5px 6px 9px 1px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+}
+
+/* 左侧栏大纲搜索高亮 */
+.ty-on-outline-filter .ty-outline-hit {
+  color: red;
+  background: yellow;
+  font-weight: bold;
 }
 
 
