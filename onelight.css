@@ -373,7 +373,7 @@ code,
 }
 
 .cm-s-inner .cm-def {
-  color: #82aaff;
+  color: darkorange;
 }
 
 .cm-s-inner .cm-string {
@@ -402,7 +402,7 @@ code,
 }
 
 .cm-s-inner .cm-property {
-  color: #ad31ff;
+  color: #ff6b6b;
 }
 
 .cm-s-inner .cm-qualifier {
