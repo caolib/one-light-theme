@@ -394,7 +394,7 @@ code,
 
 
 .cm-s-inner .cm-meta {
-  color: #ad31ff;
+  color: var(--main-red);
 }
 
 .cm-s-inner .cm-attribute {
