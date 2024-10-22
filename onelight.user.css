@@ -1,11 +1,26 @@
+@font-face {
+  font-family: '喵字果汁体';
+  src: url('https://cdn.jsdelivr.net/gh/caolib/cdn@main/MiaoZi-GuoZhiTi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('https://cdn.jsdelivr.net/gh/caolib/cdn@main/CascadiaCode.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --select-text-bg-color: #3b3e4d;
   --main-blue: #166ff3;
   --main-red: #ff6b6b;
   --main-green: #2ed573;
-  --main-purple: #877eff;
-  --main-font-family: "Cascadia Code", "喵字果汁体", "微软雅黑", "PingFang SC", "Microsoft YaHei", sans-serif;
-  --code--bg-color: #292b35;
+  --main-purple: #c94ae9;
+  --main-yellow: #f9b03d;
+  --main-font-family: "Cascadia Code", "喵字果汁体", consolas, "微软雅黑", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --code--bg-color: #282c34;
   --code--bg-color-light: #3d404e;
 }
 
@@ -257,16 +272,70 @@ tt {
 }
 
 
-/* 
-#outline-content,
-div#file-library {
-  background-image: url('./background.png');
-  background-size: 50%;
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  background-color: rgba(227, 227, 227, 0.3);
-  background-blend-mode: lighten;
-} */
+/* 文件夹 */
+.fa-folder:before {
+  color: var(--main-yellow);
+}
+
+/* 图片路径 */
+.md-image-btn:before {
+  font-family: var(--main-font-family);
+  color: var(--main-yellow);
+}
+
+
+/* 图片路径按钮 */
+.md-image-btn {
+  background: white;
+}
+
+
+/* 表格对话框 */
+.modal-content {
+  background: white;
+  border-radius: 10px;
+}
+
+/* 视频 */
+video {
+  border-radius: 10px;
+  box-shadow: 11px 10px 12px rgba(0, 0, 0, 0.5);
+}
+
+.md-alert {
+  box-shadow: 3px 8px 10px 2px rgb(173 173 173);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: white;
+}
+
+/* github风格警告框 */
+.md-alert.md-alert-warning {
+  border-left-color: #faad14;
+}
+
+.md-alert-text-warning {
+  color: #faad14;
+}
+
+/* 标题###颜色 */
+.md-blockmeta {
+  color: #777;
+}
+
+/* 表格阴影和圆角 */
+figure.md-table-fig.table-figure {
+  box-shadow: 5px 6px 9px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+/* 左侧栏大纲搜索高亮 */
+.ty-on-outline-filter .ty-outline-hit {
+  color: red;
+  background: yellow;
+  font-weight: bold;
+}
+
 
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
 /* 字体 */
@@ -327,5 +396,19 @@ div#file-library {
 
 /* 鼠标悬浮表格行高亮 */
 #write table tr:hover {
-  background: #42a5f521;
+  background: rgb(255 255 255 / 34%);
+}
+
+
+/* 默认标签颜色 */
+.cm-s-typora-default .cm-tag {
+  color: #ff7800;
+}
+
+
+/* 链接文本 */
+.cm-s-typora-default .cm-link {
+  font-style: italic;
+  color: #cd00dc;
+  text-decoration: underline;
 }
