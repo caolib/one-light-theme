@@ -337,10 +337,20 @@ figure.md-table-fig.table-figure {
 }
 
 /* 搜索框 */
+#file-library-search-input,
 #md-searchpanel input {
   background: white;
-  border-radius: 10px;
+  border-radius: 5px;
+  box-shadow: unset;
 }
+
+
+.btn.focus,
+.btn:focus,
+.btn:hover {
+  color: var(--main-blue);
+}
+
 
 .form-control:focus {
   border-color: #c2c2c2;
