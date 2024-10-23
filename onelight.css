@@ -48,10 +48,6 @@ body {
   font-family: var(--main-font-family);
 }
 
-::selection {
-  background: #b981d156;
-}
-
 ::-moz-selection {
   background: #b981d1;
   color: white;
