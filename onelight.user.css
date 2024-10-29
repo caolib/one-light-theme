@@ -367,6 +367,18 @@ input:focus {
   background: #42a5f554;
 }
 
+/* 一体化左侧菜单 */
+.megamenu-menu-list li a.active,
+.megamenu-menu-list:not(.saved) li a:hover {
+  background-color: var(--item-hover-bg-color);
+  color: var(--main-blue);
+}
+
+.megamenu-menu {
+  background-color: #4d4d4d;
+  color: white;
+}
+
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
 /* 字体 */
 #typora-source .CodeMirror-lines {
