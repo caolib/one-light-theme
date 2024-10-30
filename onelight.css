@@ -1,17 +1,3 @@
-@font-face {
-  font-family: '喵字果汁体';
-  src: url('https://cdn.jsdelivr.net/gh/caolib/cdn@main/MiaoZi-GuoZhiTi.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Cascadia Code';
-  src: url('https://cdn.jsdelivr.net/gh/caolib/cdn@main/CascadiaCode.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 /* 全局属性 */
 :root {
   /* 主色调 */
@@ -27,7 +13,6 @@
   /* 字体 */
   --main-font-family: "Cascadia Code", "喵字果汁体", "微软雅黑", "PingFang SC", "Microsoft YaHei",
     sans-serif;
-
   --text-color: #333333;
   --md-char-color: #c7c5c5;
   --meta-content-color: #5b808d;
