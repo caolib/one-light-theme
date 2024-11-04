@@ -365,6 +365,12 @@ input:focus {
   color: white;
 }
 
+
+input#search-panel-input:focus {
+  border-color: var(--main-blue) !important;
+}
+
+
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
 /* 字体 */
 #typora-source .CodeMirror-lines {
