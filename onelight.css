@@ -466,8 +466,17 @@ span#filesearch-case-option-btn:active {
 }
 
 /* 左边树状标签背景(活动) */
-.outline-item.outline-item-active {
-  background: #ff6b6b2b;
+.outline-item-active {
+  border-left: 28px solid transparent;
+  background: #42a5f542;
+  margin-left: -28px;
+  margin-right: -28px;
+}
+
+.pin-outline #outline-content .outline-active strong,
+.pin-outline .outline-active {
+  color: var(--main-blue);
+  font-weight: 700;
 }
 
 /* 左边框顶部大纲底部颜色 */
