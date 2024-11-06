@@ -393,6 +393,19 @@ input:focus {
   color: #fff;
 }
 
+.cm-s-inner .cm-header,
+.cm-s-inner.cm-header {
+  color: var(--main-blue);
+}
+
+.outline-item:hover {
+  background: #f4433638;
+  margin-left: -28px;
+  margin-right: -28px;
+  border-left: 28px solid transparent;
+  border-right: 28px solid transparent;
+}
+
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
 /* 字体 */
 #typora-source .CodeMirror-lines {
