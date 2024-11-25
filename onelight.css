@@ -10,6 +10,8 @@
   /* 背景色 */
   --bg-color: #e3e3e3;
   --code-bg-color: #282c34;
+  --item-bg-color-red: #f4433638;
+  --item-bg-color-blue: #42a5f542;
   /* 字体 */
   --main-font-family: "Cascadia Code", "喵字果汁体", "微软雅黑", "PingFang SC", "Microsoft YaHei",
     sans-serif;
@@ -468,7 +470,7 @@ span#filesearch-case-option-btn:active {
 /* 左边树状标签背景(活动) */
 .outline-item-active {
   border-left: 28px solid transparent;
-  background: #42a5f542;
+  background: var(--item-bg-color-blue);
   margin-left: -28px;
   margin-right: -28px;
 }
@@ -494,8 +496,6 @@ span#filesearch-case-option-btn:active {
 .ion-close-round:before {
   color: #ff6b6b;
 }
-
-
 
 #md-searchpanel .btn label {
   font-weight: bold;

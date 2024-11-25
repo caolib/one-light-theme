@@ -8,6 +8,8 @@
   --main-font-family: "Cascadia Code", "喵字果汁体", consolas, "微软雅黑", "PingFang SC", "Microsoft YaHei", sans-serif;
   --code--bg-color: #282c34;
   --code--bg-color-light: #3d404e;
+  --item-bg-color-red: #f4433638;
+  --item-bg-color-blue: #42a5f542;
 }
 
 body {
@@ -238,7 +240,7 @@ pre.md-meta-block.md-end-block.md-focus {
 
 /* 文件列表选中样式 */
 .file-library-node.file-tree-node.file-library-file-node.active {
-  background: #ffc4c429;
+  color: var(--main-blue)
 }
 
 
@@ -399,11 +401,15 @@ input:focus {
 }
 
 .outline-item:hover {
-  background: #f4433638;
+  background: var(--item-bg-color-red);
   margin-left: -28px;
   margin-right: -28px;
   border-left: 28px solid transparent;
   border-right: 28px solid transparent;
+}
+
+.file-library-node.file-tree-node.file-library-file-node:hover {
+  background: var(--item-bg-color-blue);
 }
 
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
