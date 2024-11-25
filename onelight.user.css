@@ -408,8 +408,18 @@ input:focus {
   border-right: 28px solid transparent;
 }
 
+/* 文件树 */
 .file-library-node.file-tree-node.file-library-file-node:hover {
   background: var(--item-bg-color-blue);
+}
+
+
+/* 右键菜单 */
+.context-menu.dropdown-menu>.active>a,
+.context-menu.dropdown-menu>li>a:hover,
+.menu-style-btn.active {
+  background: var(--item-bg-color-blue);
+  color: var(--main-blue);
 }
 
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
