@@ -11,7 +11,9 @@
   --bg-color: #e3e3e3;
   --code-bg-color: #282c34;
   --item-bg-color-red: #f4433638;
+  /* 淡化红色 */
   --item-bg-color-blue: #42a5f542;
+  /* 淡化蓝色 */
   /* 字体 */
   --main-font-family: "Cascadia Code", "喵字果汁体", "微软雅黑", "PingFang SC", "Microsoft YaHei",
     sans-serif;
@@ -205,7 +207,7 @@ body {
   padding: 10px 10px 10px 20px;
   font-size: 0.9em;
   background: #ffffff;
-  border-left: 5px solid #42a5f5;
+  border-left: 5px solid var(--main-blue);
   color: #6a737d;
   overflow: auto;
   box-shadow: 3px 8px 10px 2px rgb(173 173 173);
@@ -424,11 +426,6 @@ mark {
 }
 
 
-/* 引用左边框 */
-#write blockquote {
-  border-left: 5px solid #166ff3;
-}
-
 /* 选中文本 */
 .CodeMirror-selected,
 .CodeMirror-selectedtext {
@@ -499,7 +496,7 @@ span#filesearch-case-option-btn:active {
 
 #md-searchpanel .btn label {
   font-weight: bold;
-  color: #166ff3;
+  color: var(--main-blue);
 }
 
 
