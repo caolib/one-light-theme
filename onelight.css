@@ -458,6 +458,7 @@ span#filesearch-case-option-btn:active {
 /* 图片路径 */
 .md-expand.md-img-loaded>.md-meta>span {
   color: var(--main-blue);
+  font-family: var(--main-font-family);
 }
 
 .md-image>.md-meta {
