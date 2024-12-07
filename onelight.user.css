@@ -421,6 +421,11 @@ input:focus {
   color: var(--main-blue);
 }
 
+text,
+script {
+  font-family: var(--main-font-family);
+}
+
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
 /* 字体 */
 #typora-source .CodeMirror-lines {
