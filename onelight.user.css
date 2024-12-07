@@ -391,8 +391,7 @@ input:focus {
 .btn-primary:focus,
 .btn-primary:hover,
 .open>.dropdown-toggle.btn-primary {
-  background: #ececec;
-  color: #fff;
+  color: white;
 }
 
 .cm-s-inner .cm-header,
