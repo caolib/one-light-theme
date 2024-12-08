@@ -426,6 +426,13 @@ script {
   font-family: var(--main-font-family);
 }
 
+/* 高亮样式 */
+span[alt="highlight"] {
+  font-weight: bold;
+  color: #ff0000;
+  background: yellow;
+}
+
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
 /* 字体 */
 #typora-source .CodeMirror-lines {
