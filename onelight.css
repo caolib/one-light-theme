@@ -9,6 +9,7 @@
   --select-text-bg-color: #3b3e4d;
   /* 背景色 */
   --bg-color: #F2F2F2;
+  /* --bg-color: linear-gradient(135deg, #1c92d2, #f2fcfe); */
   --code-bg-color: #282c34;
   /* 淡化红色 */
   --item-bg-color-red: #f4433638;
@@ -18,18 +19,14 @@
   --main-font-family: "Cascadia Code", "喵字果汁体", "微软雅黑", "PingFang SC", "Microsoft YaHei",
     sans-serif;
   --text-color: #333333;
-  --md-char-color: #c7c5c5;
-  --meta-content-color: #5b808d;
-  --primary-color: #428bca;
-  --primary-btn-border-color: #285e8e;
   --primary-btn-text-color: #fff;
   --window-border: 1px solid #eee;
   --active-file-bg-color: #eee;
   --active-file-text-color: inherit;
-  --active-file-border-color: #ff6b6b;
+  --active-file-border-color: var(--main-red);
   --side-bar-bg-color: var(--bg-color);
   --item-hover-bg-color: rgba(229, 229, 229, 0.59);
-  --item-hover-text-color: #ff6b6b;
+  --item-hover-text-color: var(--main-red);
   --monospace: monospace;
 }
 
