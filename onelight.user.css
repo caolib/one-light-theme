@@ -161,14 +161,11 @@ font[title="gray"] {
 
 
 
+/* 分割线 */
 hr {
-  width: 90%;
-  margin: 10px;
   height: 2px;
   background-color: transparent;
-  /* 清除背景颜色 */
   border-top: 2px dashed var(--main-blue);
-  /* 设置虚线边框 */
 }
 
 /* 键盘按键样式 */
