@@ -10,10 +10,10 @@
   /* 背景色 */
   --bg-color: #F2F2F2;
   --code-bg-color: #282c34;
-  --item-bg-color-red: #f4433638;
   /* 淡化红色 */
-  --item-bg-color-blue: #42a5f542;
+  --item-bg-color-red: #f4433638;
   /* 淡化蓝色 */
+  --item-bg-color-blue: #42a5f542;
   /* 字体 */
   --main-font-family: "Cascadia Code", "喵字果汁体", "微软雅黑", "PingFang SC", "Microsoft YaHei",
     sans-serif;
@@ -387,11 +387,11 @@ code,
 }
 
 .cm-s-inner .cm-property {
-  color: #ff6b6b;
+  color: var(--main-red);
 }
 
 .cm-s-inner .cm-qualifier {
-  color: #ea6717
+  color: var(--main-red)
 }
 
 .cm-s-inner .cm-variable-3,
@@ -418,7 +418,7 @@ pre[lang="mermaid"] {
 mark {
   font-weight: bold;
   background: #0070ff00;
-  color: #ff6b6b;
+  color: var(--main-red);
 }
 
 #write pre {
@@ -492,7 +492,7 @@ span#filesearch-case-option-btn:active {
 
 
 .ion-close-round:before {
-  color: #ff6b6b;
+  color: var(--main-red);
 }
 
 #md-searchpanel .btn label {
