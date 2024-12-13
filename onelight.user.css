@@ -430,6 +430,12 @@ span[alt="highlight"] {
   background: yellow;
 }
 
+/* 滚动条 */
+::-webkit-scrollbar-thumb {
+  width: 5px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
 /* 字体 */
 #typora-source .CodeMirror-lines {
