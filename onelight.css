@@ -205,11 +205,21 @@ body {
   font-size: 0.9em;
   background: #ffffff;
   border-left: 5px solid var(--main-blue);
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
   color: #6a737d;
   overflow: auto;
-  box-shadow: 3px 8px 10px 2px rgb(173 173 173);
   -webkit-overflow-scrolling: touch;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  /* 添加过渡效果 */
 }
+
+#write blockquote:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  /* 鼠标悬浮时的阴影 */
+  transform: scale(1.01);
+  /* 鼠标悬浮时略微放大 */
+}
+
 
 #write blockquote p {
   line-height: 26px;
@@ -244,6 +254,7 @@ body {
 }
 
 /* 文章插图 */
+
 #write img {
   display: block;
   margin: 0 auto;
@@ -251,8 +262,17 @@ body {
   height: auto;
   max-width: 100%;
   border-radius: 5px;
-  box-shadow: 0px 4px 12px #84a1a8;
   border: 0px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  /* 动画效果 */
+}
+
+#write img:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  /* 添加阴影 */
+  transform: scale(1.02);
+  /* 悬浮时略微放大 */
 }
 
 #write table tr {

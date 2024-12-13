@@ -288,10 +288,18 @@ video {
 }
 
 .md-alert {
-  box-shadow: 3px 8px 10px 2px rgb(173 173 173);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   background: white;
+}
+
+.md-alert:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  /* 添加阴影 */
+  transform: scale(1.01);
+  /* 悬浮时略微放大 */
 }
 
 /* github风格警告框 */
