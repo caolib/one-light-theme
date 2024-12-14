@@ -205,10 +205,10 @@ body {
   font-size: 0.9em;
   background: #ffffff;
   border-left: 5px solid var(--main-blue);
-  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
   color: #6a737d;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   /* 添加过渡效果 */
 }

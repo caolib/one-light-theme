@@ -10,6 +10,7 @@
   --code--bg-color-light: #3d404e;
   --item-bg-color-red: #f4433638;
   --item-bg-color-blue: #42a5f542;
+  --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -182,18 +183,19 @@ p.md-toc-content {
 
 
 /* 顶部引用样式 */
-pre.md-meta-block.md-end-block.md-focus {
-  padding: 10px;
-  background: white;
-  border-radius: 10px;
-}
 
 #write>pre.md-meta-block.md-end-block {
   padding: 10px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
   background: white;
   border-radius: 10px;
 }
 
+#write>pre.md-meta-block.md-end-block:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.01);
+}
 
 /* 侧栏鼠标悬浮样式 */
 .outline-label:hover {
@@ -444,6 +446,7 @@ span[alt="highlight"] {
   background: rgba(0, 0, 0, 0.1);
 }
 
+/* 背景图片 */
 content {
   background-image: url('./bg.png');
   background-color: transparent;
@@ -451,7 +454,6 @@ content {
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
 /* 字体 */
