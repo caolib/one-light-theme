@@ -11,6 +11,7 @@
   --item-bg-color-red: #f4433638;
   --item-bg-color-blue: #42a5f542;
   --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  --transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 body {
@@ -187,7 +188,7 @@ p.md-toc-content {
 #write>pre.md-meta-block.md-end-block {
   padding: 10px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  transition: var(--transition);
   background: white;
   border-radius: 10px;
 }
@@ -291,7 +292,7 @@ video {
 
 .md-alert {
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  transition: var(--transition);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   background: white;

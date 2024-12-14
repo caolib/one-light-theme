@@ -18,6 +18,9 @@
   /* 字体 */
   --main-font-family: "Cascadia Code", "喵字果汁体", "微软雅黑", "PingFang SC", "Microsoft YaHei",
     sans-serif;
+  --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  --transition: box-shadow 0.3s ease, transform 0.3s ease;
+
   --text-color: #333333;
   --primary-btn-text-color: #fff;
   --window-border: 1px solid #eee;
@@ -209,15 +212,12 @@ body {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-  /* 添加过渡效果 */
+  transition: var(--transition);
 }
 
 #write blockquote:hover {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
-  /* 鼠标悬浮时的阴影 */
   transform: scale(1.01);
-  /* 鼠标悬浮时略微放大 */
 }
 
 
@@ -264,7 +264,7 @@ body {
   border-radius: 5px;
   border: 0px;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  transition: var(--transition);
   /* 动画效果 */
 }
 
@@ -328,10 +328,15 @@ code,
   margin: 0 0 20px;
   background-color: var(--code-bg-color);
   color: rgb(236, 236, 236);
-  /* font-size: 1em; */
   padding: 0.3em 1em;
   padding-top: 0.4em;
-  box-shadow: 0px 4px 9px grey;
+  box-shadow: 0px 4px 10px gray;
+  transition: var(--transition);
+}
+
+.md-fences:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.005);
 }
 
 /* 光标*/
@@ -446,9 +451,10 @@ mark {
 /* 选中文本 */
 .CodeMirror-selected,
 .CodeMirror-selectedtext {
-  background: #fe4e4e33 !important;
   text-shadow: none;
+  color: inherit !important;
 }
+
 
 /* 数学公式 */
 .md-fences-adv-panel,
