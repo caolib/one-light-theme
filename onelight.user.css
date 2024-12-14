@@ -444,6 +444,15 @@ span[alt="highlight"] {
   background: rgba(0, 0, 0, 0.1);
 }
 
+content {
+  background-image: url('./bg.png');
+  background-color: transparent;
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
 /* -----------------------------源代码阅读模式 样式 ---------------------- */
 /* 字体 */
 #typora-source .CodeMirror-lines {

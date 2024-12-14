@@ -479,6 +479,7 @@ span#filesearch-case-option-btn:active {
 }
 
 .md-image>.md-meta {
+  font-family: var(--main-font-family);
   color: var(--main-blue);
 }
 
